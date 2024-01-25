@@ -13,15 +13,14 @@ class User():
     - password: private string hash in MD5
     """
 
-    __password = None
-    id = str(uuid.uuid4())
 
-    # def __init__(self):
-    #     """
-    #     Initialize a new user:
-    #     - assigned an unique `id`
-    #     """
-    #     self.id = str(uuid.uuid4())
+    def __init__(self):
+        """
+        Initialize a new user:
+        - assigned an unique `id`
+        """
+        self.id = str(uuid.uuid4())
+        self.__password = None
 
     @property
     def password(self):
