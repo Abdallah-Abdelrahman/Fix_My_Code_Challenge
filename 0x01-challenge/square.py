@@ -23,7 +23,7 @@ class Square():
 
     def permiter_of_my_square(self):
         '''Calculatte the permiter'''
-        return (self.width * 2) + (self.width * 2)
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         '''human-friendly representation of the instance'''
