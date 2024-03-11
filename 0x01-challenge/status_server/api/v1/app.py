@@ -5,6 +5,7 @@ Web server
 from api.v1.views import app_views
 from flask import Flask, jsonify, make_response
 
+
 app = Flask(__name__)
 app.register_blueprint(app_views)
 
