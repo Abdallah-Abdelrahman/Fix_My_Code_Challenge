@@ -1,6 +1,13 @@
 #!/usr/bin/python3
+'''square class'''
+
 
 class square():
+    '''Define square
+    Attrs:
+        width: width of square
+        height: height of square
+    '''
 
     width = 0
     height = 0
